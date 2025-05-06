@@ -1,11 +1,17 @@
-  
-* {
-  margin:0px;
-  padding:0px;
-  border:none;
-  outline:none;
+section {
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-  
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+
 
 .owl-nav {
   position: absolute;
@@ -2235,6 +2241,11 @@ button.ltr {
 }
 
 
+.designation-spacer {
+  display: block;
+  margin-bottom: 8px; /* Adjust as needed */
+  line-height: 1.3;   /* Slightly increased line-height */
+}
 /** xs-sidebar **/
 
 .xs-sidebar-group .xs-overlay{
