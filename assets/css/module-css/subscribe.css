@@ -1,0 +1,221 @@
+
+/** subscribe-section **/
+
+.subscribe-section{
+  position: relative;
+  top: -100px;
+}
+
+.subscribe-section .inner-container{
+  position: relative;
+  padding: 50px 0px;
+  z-index: 1;
+}
+
+.subscribe-section .inner-container:before{
+  position: absolute;
+  content: '';
+  background: -webkit-linear-gradient(110deg, #dd0f79 60%, #ffe2f1  50%);
+  background: -o-linear-gradient(110deg, #dd0f79 60%, #ffe2f1  50%);
+  background: -moz-linear-gradient(110deg, #dd0f79 60%, #ffe2f1  50%);
+  background: linear-gradient(110deg, #dd0f79 60%, #ffe2f1  50%);
+   width: calc(100% + 80px);
+  height: 100%;
+  left: -90px;
+  top: 0px;
+  box-shadow: 0px -5px 40px rgba(75, 183, 241, 0.15);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.subscribe-section .text-box h2{
+  position: relative;
+  display: block;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 700;
+}
+
+.subscribe-section .text-box h2 span{
+  color: var(--secondary-color);
+}
+
+.subscribe-section .form-inner .form-group{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.subscribe-section .form-inner .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.subscribe-section .form-inner .form-group input[type='email']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 66px;
+  background: #F4F3F8;
+  border: 1px solid rgba(14, 17, 54, 0.05);
+  border-radius: 30px;
+  font-size: 16px;
+  color: #676767;
+  padding: 10px 200px 10px 30px;
+  transition: all 500ms ease;
+}
+
+.subscribe-section .form-inner .form-group button[type='submit']{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.subscribe-section .form-inner .form-group button[type='submit'] span{
+  padding: 17px 30px 15px 30px;
+}
+
+.subscribe-section .form-inner .form-group input[type='email']:focus{
+  border-color: var(--theme-color);
+}
+
+.subscribe-section:before{
+  position: absolute;
+  content: '';
+  background: #fbfdff;
+  width: 100%;
+  height: 50%;
+  left: 0px;
+  bottom: 0px;
+}
+
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .subscribe-section .text-box{
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+  
+
+  .founder_data {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #222;
+    margin-bottom: 18px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+  .subscribe-section .text-box h2 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #333 !important;
+  }
+
+  .subscribe-section .text-box h2 u {
+    color: var(--secondary-color);
+  }
+
+  .subscribe-section .inner-container:before {
+    width: 100%;
+    left: 0px;
+    background: #ffe2f1;
+  }
+
+  .subscribe-section .inner-container {
+    position: relative;
+    padding: 50px 50px;
+    z-index: 1;
+}
+
+  .subscribe-section .form-inner .form-group button[type='submit']{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .subscribe-section .form-inner .form-group input[type='email']{
+    padding-right: 30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
